@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>شاهد الآن</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .video-container {
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    iframe, video {
+      width: 100%;
+      height: 350px;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin: 20px 0;
+    }
+
+    .btn {
+      background-color: #e50914;
+      color: white;
+      padding: 15px 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 20px;
+    }
+
+    .btn:hover {
+      background-color: #c40812;
+    }
+
+    @media (max-width: 600px) {
+      iframe, video {
+        height: 200px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <h1>شاهد الفيلم الكامل الآن مجانًا</h1>
+    <a class="btn" href="https://your-link.com" target="_blank">شاهد الآن</a>
+  </div>
+</body>
+</html>
